@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Chroma Database
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Testing
+.pytest_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Coverage
+.coverage
+htmlcov/
+
+
+
+# tests
+
+test_config.py
+test_constants.py
+test_logger.py
+test_models.py
+test_utils.py
