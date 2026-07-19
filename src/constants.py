@@ -63,6 +63,12 @@ CHROMA_COLLECTION_NAME: Final[str] = "sports_knowledge"
 
 DOCUMENT_SOURCE: Final[str] = "sports_facts"
 
+CHROMA_DISTANCE_FUNCTION: Final[str] = "cosine"
+
+DEFAULT_SEARCH_RESULTS: Final[int] = 5
+
+DEFAULT_PEEK_RESULTS: Final[int] = 10
+
 # ==========================================================
 # Retrieval
 # ==========================================================
@@ -76,6 +82,8 @@ DEFAULT_VECTOR_RESULTS: Final[int] = 3
 # ==========================================================
 
 EMBEDDING_MODEL_NAME: Final[str] = "all-MiniLM-L6-v2"
+
+EMBEDDING_BATCH_SIZE: Final[int] = 32
 
 # ==========================================================
 # Logging

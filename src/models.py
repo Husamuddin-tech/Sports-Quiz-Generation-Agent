@@ -2,11 +2,12 @@
 Pydantic models used throughout the application.
 """
 
-from typing import Literal
+from __future__ import annotations
+
+from datetime import date, datetime
+from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
-
-from datetime import datetime, date
 
 
 # ==========================================================
@@ -17,9 +18,16 @@ from datetime import datetime, date
 class QuizRequest(BaseModel):
     """User request for quiz generation."""
 
-    sport: str = Field(..., min_length=2)
+    sport: str = Field(
+        ...,
+        min_length=2,
+    )
 
-    difficulty: Literal["Easy", "Medium", "Hard"]
+    difficulty: Literal[
+        "Easy",
+        "Medium",
+        "Hard",
+    ]
 
     number_of_questions: int = Field(
         default=5,
@@ -29,7 +37,7 @@ class QuizRequest(BaseModel):
 
 
 # ==========================================================
-# Search Result
+# Web Search
 # ==========================================================
 
 
@@ -44,16 +52,20 @@ class SearchResult(BaseModel):
 
 
 # ==========================================================
-# Retrieved Context
+# Retrieved Knowledge
 # ==========================================================
 
 
 class RetrievedDocument(BaseModel):
-    """Document retrieved from ChromaDB."""
+    """
+    Document retrieved from ChromaDB.
+    """
+
+    id: str
 
     content: str
 
-    source: str
+    metadata: dict[str, Any]
 
     similarity_score: float
 
@@ -64,9 +76,14 @@ class RetrievedDocument(BaseModel):
 
 
 class QuizOption(BaseModel):
-    """Represents one MCQ option."""
+    """Represents one multiple-choice option."""
 
-    label: Literal["A", "B", "C", "D"]
+    label: Literal[
+        "A",
+        "B",
+        "C",
+        "D",
+    ]
 
     text: str
 
@@ -77,13 +94,18 @@ class QuizOption(BaseModel):
 
 
 class QuizQuestion(BaseModel):
-    """Represents a single quiz question."""
+    """Represents one quiz question."""
 
     question: str
 
     options: list[QuizOption]
 
-    correct_answer: Literal["A", "B", "C", "D"]
+    correct_answer: Literal[
+        "A",
+        "B",
+        "C",
+        "D",
+    ]
 
     explanation: str
 
@@ -94,7 +116,7 @@ class QuizQuestion(BaseModel):
 
 
 class QuizResponse(BaseModel):
-    """Complete quiz."""
+    """Complete quiz response."""
 
     sport: str
 
@@ -102,9 +124,13 @@ class QuizResponse(BaseModel):
 
     questions: list[QuizQuestion]
 
-    sources: list[str] = []
+    sources: list[str] = Field(
+        default_factory=list
+    )
 
-    generated_at: datetime = Field(default_factory=datetime.utcnow)
+    generated_at: datetime = Field(
+        default_factory=datetime.utcnow
+    )
 
     model_config = ConfigDict(
         validate_assignment=True,
@@ -112,18 +138,30 @@ class QuizResponse(BaseModel):
     )
 
 
+# ==========================================================
+# Knowledge Base Models
+# ==========================================================
+
+
 class KnowledgeSource(BaseModel):
     """Metadata describing the origin of a knowledge record."""
 
     type: str
+
     name: str
+
     license: str
+
     verified: bool
 
+    model_config = ConfigDict(
+        extra="forbid",
+        validate_assignment=True,
+    )
 
 
 class SportsKnowledge(BaseModel):
-    """Represents one curated knowledge record."""
+    """Represents one curated sports knowledge record."""
 
     id: str
 
@@ -151,6 +189,3 @@ class SportsKnowledge(BaseModel):
         extra="forbid",
         validate_assignment=True,
     )
-
-
-

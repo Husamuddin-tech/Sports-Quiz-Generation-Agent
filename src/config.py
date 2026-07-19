@@ -6,6 +6,7 @@ through a strongly typed Settings object.
 """
 
 from functools import lru_cache
+from pathlib import Path
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -70,6 +71,12 @@ class Settings(BaseSettings):
         default="./chroma_db",
         alias="CHROMA_DB_PATH",
     )
+
+    
+
+    BASE_DIR = Path(__file__).resolve().parent.parent
+
+    CHROMA_DB_PATH = BASE_DIR / "chroma_db"
 
     # ==========================
     # Embedding Model
