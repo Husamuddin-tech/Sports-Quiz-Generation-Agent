@@ -1,0 +1,379 @@
+[
+  {
+    "id": "cricket_001",
+    "sport": "Cricket",
+    "topic": "History",
+    "title": "First Test Match",
+    "content": "The first official Test match in cricket history was played between Australia and England from March 15 to 19, 1877, at the Melbourne Cricket Ground (MCG) in Australia. Australia won the historic match by 45 runs. This match marked the beginning of Test cricket, the longest and most traditional format of the game. Today, Test cricket is regarded as the ultimate examination of a player's technical ability, endurance, and consistency.",
+    "keywords": [
+      "Test Cricket",
+      "Australia",
+      "England",
+      "MCG",
+      "1877",
+      "History"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+  "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "cricket_002",
+    "sport": "Cricket",
+    "topic": "Players",
+    "title": "Sir Don Bradman",
+    "content": "Sir Donald Bradman of Australia is widely regarded as the greatest batter in cricket history. He finished his Test career with an extraordinary batting average of 99.94 across 52 Test matches, a record that remains unmatched. Bradman's remarkable consistency and dominance during the 1930s and 1940s have made his batting average one of the greatest statistical achievements in any major sport.",
+    "keywords": [
+      "Don Bradman",
+      "Australia",
+      "Batting Average",
+      "99.94",
+      "Legend",
+      "Test Cricket"
+    ],
+    "difficulty": [
+      "Medium",
+      "Hard"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+  "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "cricket_003",
+    "sport": "Cricket",
+    "topic": "World Cup",
+    "title": "ICC Cricket World Cup",
+    "content": "The ICC Cricket World Cup was first held in England in 1975. The inaugural tournament featured eight teams competing in the One Day International format with 60 overs per side. The West Indies won the first World Cup by defeating Australia in the final at Lord's Cricket Ground. Today, the ICC Cricket World Cup is one of the most prestigious international tournaments in cricket.",
+    "keywords": [
+      "ICC",
+      "World Cup",
+      "1975",
+      "West Indies",
+      "England",
+      "ODI"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+  "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "cricket_004",
+    "sport": "Cricket",
+    "topic": "Players",
+    "title": "Sachin Tendulkar",
+    "content": "Sachin Tendulkar is regarded as one of the greatest cricketers of all time. He scored a record 34,357 international runs across Test matches, One Day Internationals, and T20 Internationals. Tendulkar became the first player to score a double century in men's One Day International cricket and played a crucial role in India's victorious 2011 ICC Cricket World Cup campaign.",
+    "keywords": [
+      "Sachin Tendulkar",
+      "Master Blaster",
+      "India",
+      "ODI",
+      "Test Cricket",
+      "2011 World Cup",
+      "International Runs"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+  "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "cricket_005",
+    "sport": "Cricket",
+    "topic": "Domestic League",
+    "title": "Indian Premier League",
+    "content": "The Indian Premier League (IPL) was established in 2008 by the Board of Control for Cricket in India (BCCI). The league introduced a franchise-based Twenty20 format that transformed the commercial landscape of cricket. Featuring top international and domestic players, the IPL is among the world's most valuable sporting leagues and has significantly contributed to the popularity of T20 cricket.",
+    "keywords": [
+      "IPL",
+      "BCCI",
+      "T20",
+      "India",
+      "Domestic League",
+      "Franchise Cricket"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+  "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "cricket_006",
+    "sport": "Cricket",
+    "topic": "Players",
+    "title": "Virat Kohli",
+    "content": "Virat Kohli is one of the most accomplished batters in modern cricket. Known for his consistency across all formats, he has scored thousands of international runs and captained India in all three formats. Kohli holds numerous batting records in One Day Internationals and has been recognized with multiple ICC awards for his outstanding performances over the years.",
+    "keywords": [
+      "Virat Kohli",
+      "India",
+      "Batting",
+      "ODI",
+      "Captain",
+      "ICC Awards"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+  "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+  "id": "cricket_007",
+  "sport": "Cricket",
+  "topic": "Rules",
+  "title": "Leg Before Wicket (LBW)",
+  "content": "Leg Before Wicket (LBW) is one of cricket's most technical methods of dismissal. A batter can be given out if the ball, delivered legally, strikes any part of the batter's body before hitting the bat, and the umpire determines that the ball would have gone on to hit the stumps. The decision depends on several conditions, including the point of impact, the line of the delivery, and whether the batter offered a genuine shot. Modern cricket uses the Decision Review System (DRS) with ball-tracking technology to assist umpires in LBW decisions.",
+  "keywords": [
+    "LBW",
+    "Rules",
+    "Dismissal",
+    "DRS",
+    "Ball Tracking",
+    "Umpire"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "cricket_008",
+  "sport": "Cricket",
+  "topic": "Records",
+  "title": "Highest Individual ODI Score",
+  "content": "The highest individual score in men's One Day International cricket is 264 runs, achieved by Rohit Sharma of India against Sri Lanka on November 13, 2014, at Eden Gardens in Kolkata. During this remarkable innings, Rohit hit 33 fours and 9 sixes. The record remains the highest individual score in ODI history and is considered one of the greatest batting performances in limited-overs cricket.",
+  "keywords": [
+    "Rohit Sharma",
+    "264",
+    "ODI Record",
+    "India",
+    "Sri Lanka",
+    "Eden Gardens"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "cricket_009",
+  "sport": "Cricket",
+  "topic": "Awards",
+  "title": "ICC Cricketer of the Year",
+  "content": "The ICC Cricketer of the Year award, also known as the Sir Garfield Sobers Trophy, is presented annually by the International Cricket Council to recognize the best overall performer in international cricket. The award considers performances across all formats and is regarded as one of the highest individual honors in the sport.",
+  "keywords": [
+    "ICC",
+    "Sir Garfield Sobers Trophy",
+    "Awards",
+    "International Cricket Council",
+    "Cricketer of the Year"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "cricket_010",
+  "sport": "Cricket",
+  "topic": "Stadiums",
+  "title": "Melbourne Cricket Ground",
+  "content": "The Melbourne Cricket Ground (MCG), located in Melbourne, Australia, is one of the world's most iconic cricket stadiums. Established in 1853, it has a seating capacity of approximately 100,000 spectators. The MCG hosted the first Test match in 1877, the first One Day International in 1971, and numerous ICC Cricket World Cup finals, making it one of cricket's most historic venues.",
+  "keywords": [
+    "MCG",
+    "Melbourne",
+    "Australia",
+    "Stadium",
+    "World Cup",
+    "Historic Venue"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "cricket_011",
+  "sport": "Cricket",
+  "topic": "World Cup",
+  "title": "2023 ICC Cricket World Cup",
+  "content": "The 2023 ICC Men's Cricket World Cup was hosted by India. Australia won the tournament by defeating India in the final held at the Narendra Modi Stadium in Ahmedabad. Travis Head played a match-winning innings of 137 runs, helping Australia secure their sixth Cricket World Cup title, the most by any nation in the tournament's history.",
+  "keywords": [
+    "2023 World Cup",
+    "Australia",
+    "India",
+    "Travis Head",
+    "Ahmedabad",
+    "Narendra Modi Stadium"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "cricket_012",
+  "sport": "Cricket",
+  "topic": "Formats",
+  "title": "International Cricket Formats",
+  "content": "International cricket is played in three primary formats: Test matches, One Day Internationals (ODIs), and Twenty20 Internationals (T20Is). Test cricket is played over five days with two innings per team. ODIs are limited to 50 overs per side, while T20Is are limited to 20 overs per side. Each format requires different strategies, skills, and styles of play, contributing to cricket's global appeal.",
+  "keywords": [
+    "Test Cricket",
+    "ODI",
+    "T20I",
+    "Formats",
+    "Overs",
+    "International Cricket"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]

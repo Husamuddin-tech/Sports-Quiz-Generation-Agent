@@ -1,0 +1,250 @@
+[
+  {
+    "id": "baseball_001",
+    "sport": "Baseball",
+    "topic": "History",
+    "title": "Origin of Baseball",
+    "content": "Baseball developed in the United States during the 19th century from earlier bat-and-ball games. While the exact origins remain debated, Alexander Cartwright is widely credited with formalizing many of the game's modern rules in 1845, including the diamond-shaped field and foul lines. Baseball quickly became America's national pastime and later evolved into one of the world's most popular professional sports.",
+    "keywords": [
+      "Baseball History",
+      "Alexander Cartwright",
+      "1845",
+      "United States",
+      "National Pastime",
+      "Origins"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+    "id": "baseball_002",
+    "sport": "Baseball",
+    "topic": "Championships",
+    "title": "World Series",
+    "content": "The World Series is the championship series of Major League Baseball (MLB), first played in 1903 between the champions of the American League and National League. The New York Yankees are the most successful franchise in World Series history with 27 championships. Winning the World Series is considered the highest achievement in professional baseball.",
+    "keywords": [
+      "World Series",
+      "MLB",
+      "New York Yankees",
+      "1903",
+      "Championship",
+      "Baseball"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+    "id": "baseball_003",
+    "sport": "Baseball",
+    "topic": "Players",
+    "title": "Babe Ruth",
+    "content": "George Herman 'Babe' Ruth is one of the greatest players in baseball history. Nicknamed the 'Sultan of Swat,' he hit 714 career home runs, a record that stood for nearly four decades. Ruth played most of his career with the New York Yankees and helped transform baseball into one of America's most popular spectator sports during the early 20th century.",
+    "keywords": [
+      "Babe Ruth",
+      "Sultan of Swat",
+      "714 Home Runs",
+      "New York Yankees",
+      "Legend",
+      "MLB"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+    "id": "baseball_004",
+    "sport": "Baseball",
+    "topic": "History",
+    "title": "Jackie Robinson",
+    "content": "Jackie Robinson made history on April 15, 1947, when he became the first African American player in the modern era of Major League Baseball, debuting for the Brooklyn Dodgers. His courage and outstanding performances helped break baseball's color barrier and inspired greater racial integration across professional sports. Robinson's jersey number 42 has been retired across all MLB teams.",
+    "keywords": [
+      "Jackie Robinson",
+      "42",
+      "Brooklyn Dodgers",
+      "Civil Rights",
+      "MLB",
+      "1947"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+  "id": "baseball_005",
+  "sport": "Baseball",
+  "topic": "Players",
+  "title": "Shohei Ohtani",
+  "content": "Shohei Ohtani of Japan is widely regarded as one of the most unique players in baseball history because of his exceptional ability to excel as both a pitcher and a designated hitter. His two-way performances have drawn comparisons to the early career of Babe Ruth. In 2023, Ohtani signed a record-breaking 10-year contract with the Los Angeles Dodgers, reflecting his extraordinary value to the sport.",
+  "keywords": [
+    "Shohei Ohtani",
+    "Japan",
+    "Two-Way Player",
+    "Pitcher",
+    "Designated Hitter",
+    "Los Angeles Dodgers"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "baseball_006",
+  "sport": "Baseball",
+  "topic": "Organizations",
+  "title": "Major League Baseball",
+  "content": "Major League Baseball (MLB) is the highest level of professional baseball in the United States and Canada. Founded in 1903 through the cooperation of the American League and National League, MLB currently consists of 30 teams. The league oversees the regular season, playoffs, and the World Series while promoting baseball globally through international events and player development initiatives.",
+  "keywords": [
+    "MLB",
+    "Major League Baseball",
+    "American League",
+    "National League",
+    "Professional Baseball",
+    "30 Teams"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "baseball_007",
+  "sport": "Baseball",
+  "topic": "Awards",
+  "title": "National Baseball Hall of Fame",
+  "content": "The National Baseball Hall of Fame and Museum, located in Cooperstown, New York, honors players, managers, umpires, and executives who have made significant contributions to baseball. Established in 1936, it preserves the history of the sport through exhibits, historical artifacts, and the induction of baseball's greatest figures. Election to the Hall of Fame is considered one of baseball's highest honors.",
+  "keywords": [
+    "Hall of Fame",
+    "Cooperstown",
+    "New York",
+    "Baseball Museum",
+    "Legends",
+    "Awards"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "baseball_008",
+  "sport": "Baseball",
+  "topic": "Rules",
+  "title": "Basic Rules of Baseball",
+  "content": "A baseball game is played between two teams of nine players over nine innings. Teams alternate between batting and fielding, with the objective of scoring runs by advancing around four bases and returning to home plate. A team records an out by striking out a batter, catching a batted ball before it touches the ground, or forcing a runner out at a base. The team with the most runs at the end of the game wins.",
+  "keywords": [
+    "Baseball Rules",
+    "Nine Innings",
+    "Runs",
+    "Bases",
+    "Strikeout",
+    "Fielding"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]

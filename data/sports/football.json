@@ -1,0 +1,377 @@
+[
+  {
+    "id": "football_001",
+    "sport": "Football",
+    "topic": "History",
+    "title": "First FIFA World Cup",
+    "content": "The first FIFA World Cup was held in Uruguay in 1930. Thirteen national teams participated in the inaugural tournament, with Uruguay defeating Argentina 4–2 in the final at Estadio Centenario in Montevideo. Organized by FIFA, the tournament established the foundation for what has become the world's most prestigious international football competition, held every four years.",
+    "keywords": [
+      "FIFA",
+      "1930",
+      "Uruguay",
+      "Argentina",
+      "World Cup",
+      "Montevideo"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "football_002",
+    "sport": "Football",
+    "topic": "Players",
+    "title": "Pelé",
+    "content": "Pelé is widely regarded as one of the greatest football players in history. Representing Brazil, he became the only player to win three FIFA World Cups, lifting the trophy in 1958, 1962, and 1970. Known for his exceptional finishing, creativity, and leadership, Pelé scored over 1,000 goals in official and exhibition matches during his illustrious career and became a global ambassador for football.",
+    "keywords": [
+      "Pelé",
+      "Brazil",
+      "World Cup",
+      "1958",
+      "1970",
+      "Legend"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "football_003",
+    "sport": "Football",
+    "topic": "Players",
+    "title": "Lionel Messi",
+    "content": "Lionel Messi is one of the most decorated footballers in history. He has won a record eight Ballon d'Or awards and captained Argentina to victory in the 2022 FIFA World Cup, defeating France in an unforgettable final. Throughout his career, Messi has been recognized for his vision, dribbling ability, playmaking, and remarkable goal-scoring consistency for both club and country.",
+    "keywords": [
+      "Lionel Messi",
+      "Argentina",
+      "Ballon d'Or",
+      "2022 World Cup",
+      "Forward",
+      "Playmaker"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "football_004",
+    "sport": "Football",
+    "topic": "Players",
+    "title": "Cristiano Ronaldo",
+    "content": "Cristiano Ronaldo is one of football's greatest goal scorers and among the sport's most successful players. He has won multiple Ballon d'Or awards and numerous league titles across England, Spain, and Italy. Ronaldo became the first men's player to score over 900 official senior career goals, demonstrating exceptional longevity, athleticism, and consistency throughout his professional career.",
+    "keywords": [
+      "Cristiano Ronaldo",
+      "Portugal",
+      "Ballon d'Or",
+      "Goals",
+      "Manchester United",
+      "Real Madrid"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "football_005",
+    "sport": "Football",
+    "topic": "World Cup",
+    "title": "Brazil's FIFA World Cup Record",
+    "content": "Brazil is the most successful nation in FIFA World Cup history, having won five titles in 1958, 1962, 1970, 1994, and 2002. The Brazilian national team is renowned for its attacking style of play and has produced legendary players including Pelé, Garrincha, Romário, Ronaldo Nazário, Ronaldinho, and Kaká. Brazil is also the only nation to have participated in every FIFA World Cup tournament.",
+    "keywords": [
+      "Brazil",
+      "Five World Cups",
+      "Pelé",
+      "Ronaldo",
+      "History",
+      "FIFA"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "football_006",
+    "sport": "Football",
+    "topic": "Club Football",
+    "title": "UEFA Champions League",
+    "content": "The UEFA Champions League is Europe's premier club football competition. Originally introduced as the European Cup in 1955, it brings together the top-performing clubs from domestic leagues across Europe. Real Madrid won the first five editions of the tournament and remains its most successful club. Winning the UEFA Champions League is considered one of the greatest achievements in club football.",
+    "keywords": [
+      "UEFA",
+      "Champions League",
+      "European Cup",
+      "Real Madrid",
+      "Club Football",
+      "Europe"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+  "id": "football_007",
+  "sport": "Football",
+  "topic": "Domestic League",
+  "title": "English Premier League",
+  "content": "The English Premier League (EPL) was founded in 1992 and is widely regarded as one of the most competitive football leagues in the world. The league features 20 clubs competing annually for the championship. Manchester United has won the most Premier League titles since its formation, while Arsenal's 2003–04 'Invincibles' season remains the only unbeaten league campaign in Premier League history.",
+  "keywords": [
+    "Premier League",
+    "England",
+    "Manchester United",
+    "Arsenal",
+    "Invincibles",
+    "Domestic League"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "football_008",
+  "sport": "Football",
+  "topic": "Rules",
+  "title": "Offside Rule",
+  "content": "The offside rule is one of football's most important laws. A player is in an offside position if any part of the head, body, or feet is nearer to the opponent's goal line than both the ball and the second-last defender at the moment the ball is played, unless the player is in their own half. Being in an offside position is not an offense by itself; the player must become actively involved in play. The Video Assistant Referee (VAR) is often used to review close offside decisions.",
+  "keywords": [
+    "Offside",
+    "Football Rules",
+    "VAR",
+    "Referee",
+    "Second-last Defender",
+    "Laws of the Game"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "football_009",
+  "sport": "Football",
+  "topic": "Awards",
+  "title": "Ballon d'Or",
+  "content": "The Ballon d'Or is one of the most prestigious individual awards in football. Presented annually by France Football, it recognizes the world's best-performing footballer based on performances during the season. Lionel Messi holds the record for the most Ballon d'Or awards with eight, followed by Cristiano Ronaldo with five. Winning the Ballon d'Or is considered one of the highest individual honors in the sport.",
+  "keywords": [
+    "Ballon d'Or",
+    "France Football",
+    "Lionel Messi",
+    "Cristiano Ronaldo",
+    "Awards",
+    "Best Player"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "football_010",
+  "sport": "Football",
+  "topic": "Stadiums",
+  "title": "Wembley Stadium",
+  "content": "Wembley Stadium in London, England, is one of the world's most iconic football venues. Opened in 2007 on the site of the original Wembley Stadium, it has a seating capacity of approximately 90,000 spectators. Wembley hosts the FA Cup Final, EFL Cup Final, England national team matches, UEFA Champions League finals, and other major sporting and entertainment events.",
+  "keywords": [
+    "Wembley",
+    "London",
+    "England",
+    "Stadium",
+    "FA Cup",
+    "National Team"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "football_011",
+  "sport": "Football",
+  "topic": "World Cup",
+  "title": "FIFA World Cup Trophy",
+  "content": "The current FIFA World Cup Trophy was introduced in 1974, replacing the Jules Rimet Trophy. Made primarily of 18-carat gold and standing 36.8 centimeters tall, it depicts two human figures holding up the Earth. Unlike the Jules Rimet Trophy, the modern FIFA World Cup Trophy is not permanently awarded to the winning nation; instead, champions receive a gold-plated replica while the original trophy remains in FIFA's possession.",
+  "keywords": [
+    "FIFA World Cup Trophy",
+    "Jules Rimet Trophy",
+    "1974",
+    "Gold Trophy",
+    "Champions",
+    "FIFA"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "football_012",
+  "sport": "Football",
+  "topic": "Organizations",
+  "title": "FIFA",
+  "content": "The Fédération Internationale de Football Association (FIFA) is the international governing body of association football. Founded in 1904 and headquartered in Zürich, Switzerland, FIFA organizes major international competitions including the FIFA World Cup, FIFA Women's World Cup, Club World Cup, and youth tournaments. It is responsible for promoting and regulating football worldwide through its member associations.",
+  "keywords": [
+    "FIFA",
+    "Football Governance",
+    "Zürich",
+    "World Cup",
+    "International Federation",
+    "Football Organization"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]

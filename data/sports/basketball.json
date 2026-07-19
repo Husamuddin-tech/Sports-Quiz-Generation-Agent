@@ -1,0 +1,317 @@
+[
+  {
+    "id": "basketball_001",
+    "sport": "Basketball",
+    "topic": "History",
+    "title": "Origin of Basketball",
+    "content": "Basketball was invented in December 1891 by Canadian physical education instructor Dr. James Naismith in Springfield, Massachusetts, USA. He created the game as an indoor sport to keep students active during the winter months. The first game was played using a soccer ball and two peach baskets attached to a gymnasium balcony. Over time, basketball evolved into one of the world's most popular sports with professional leagues and international competitions.",
+    "keywords": [
+      "James Naismith",
+      "1891",
+      "Springfield",
+      "Basketball History",
+      "Peach Baskets",
+      "Indoor Sport"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "basketball_002",
+    "sport": "Basketball",
+    "topic": "Players",
+    "title": "Michael Jordan",
+    "content": "Michael Jordan is widely regarded as one of the greatest basketball players of all time. Playing primarily for the Chicago Bulls, he won six NBA championships between 1991 and 1998 and was named NBA Finals Most Valuable Player (MVP) in each championship series. Jordan's scoring ability, competitiveness, and influence helped popularize basketball worldwide and inspired generations of players.",
+    "keywords": [
+      "Michael Jordan",
+      "Chicago Bulls",
+      "NBA",
+      "Finals MVP",
+      "Championships",
+      "GOAT"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "basketball_003",
+    "sport": "Basketball",
+    "topic": "Players",
+    "title": "LeBron James",
+    "content": "LeBron James is one of the most accomplished players in basketball history. On February 7, 2023, he became the NBA's all-time leading scorer, surpassing Kareem Abdul-Jabbar's long-standing record. Known for his versatility, leadership, and longevity, LeBron has won multiple NBA championships, MVP awards, and Olympic gold medals while maintaining elite performance across two decades.",
+    "keywords": [
+      "LeBron James",
+      "NBA",
+      "Scoring Record",
+      "Olympics",
+      "MVP",
+      "Los Angeles Lakers"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "basketball_004",
+    "sport": "Basketball",
+    "topic": "Olympics",
+    "title": "1992 Dream Team",
+    "content": "The United States men's basketball team at the 1992 Barcelona Olympics, popularly known as the 'Dream Team', is widely considered one of the greatest sports teams ever assembled. The roster featured NBA legends including Michael Jordan, Magic Johnson, Larry Bird, Charles Barkley, and Scottie Pippen. The team dominated the tournament and won the Olympic gold medal, significantly increasing basketball's global popularity.",
+    "keywords": [
+      "Dream Team",
+      "1992 Olympics",
+      "Michael Jordan",
+      "Magic Johnson",
+      "Larry Bird",
+      "USA Basketball"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "basketball_005",
+    "sport": "Basketball",
+    "topic": "League",
+    "title": "National Basketball Association",
+    "content": "The National Basketball Association (NBA) is the world's premier professional basketball league. Founded in 1946 as the Basketball Association of America (BAA), it adopted the name NBA in 1949 after merging with the National Basketball League (NBL). The league currently consists of 30 teams from the United States and Canada and attracts many of the world's best basketball players.",
+    "keywords": [
+      "NBA",
+      "Professional Basketball",
+      "1946",
+      "BAA",
+      "NBL",
+      "League"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+  "id": "basketball_006",
+  "sport": "Basketball",
+  "topic": "Championships",
+  "title": "Larry O'Brien NBA Championship Trophy",
+  "content": "The Larry O'Brien NBA Championship Trophy is awarded annually to the team that wins the NBA Finals. Introduced in 1977 and renamed in honor of former NBA commissioner Larry O'Brien, the trophy symbolizes the highest achievement in professional basketball. Each season concludes with the NBA Finals, where the champions earn the prestigious trophy after a best-of-seven playoff series.",
+  "keywords": [
+    "Larry O'Brien Trophy",
+    "NBA Finals",
+    "Championship",
+    "Playoffs",
+    "Professional Basketball",
+    "NBA"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "basketball_007",
+  "sport": "Basketball",
+  "topic": "Rules",
+  "title": "Three-Point Line",
+  "content": "The three-point line is a defining feature of modern basketball. A successful shot made from beyond this arc is worth three points instead of two. The NBA officially adopted the three-point line in the 1979–80 season, while FIBA later incorporated it into international basketball. The introduction of the three-point shot has significantly influenced offensive strategies and player development across all levels of the game.",
+  "keywords": [
+    "Three-Point Line",
+    "Rules",
+    "NBA",
+    "FIBA",
+    "Scoring",
+    "Basketball Strategy"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "basketball_008",
+  "sport": "Basketball",
+  "topic": "Organizations",
+  "title": "FIBA",
+  "content": "The International Basketball Federation (FIBA) is the global governing body for basketball. Founded in 1932 and headquartered in Mies, Switzerland, FIBA establishes the official rules of international basketball and organizes major competitions, including the FIBA Basketball World Cup and Olympic basketball tournaments. Today, more than 200 national basketball federations are affiliated with FIBA.",
+  "keywords": [
+    "FIBA",
+    "International Basketball Federation",
+    "World Cup",
+    "Olympics",
+    "Basketball Governance",
+    "Switzerland"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "basketball_009",
+  "sport": "Basketball",
+  "topic": "Awards",
+  "title": "Naismith Memorial Basketball Hall of Fame",
+  "content": "The Naismith Memorial Basketball Hall of Fame honors individuals who have made exceptional contributions to the sport of basketball. Located in Springfield, Massachusetts, it was established in 1959 and is named after Dr. James Naismith, the inventor of basketball. Players, coaches, referees, and contributors from around the world are inducted based on their outstanding achievements and impact on the game.",
+  "keywords": [
+    "Basketball Hall of Fame",
+    "James Naismith",
+    "Springfield",
+    "Awards",
+    "Legends",
+    "Induction"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "basketball_010",
+  "sport": "Basketball",
+  "topic": "Players",
+  "title": "Kareem Abdul-Jabbar",
+  "content": "Kareem Abdul-Jabbar is one of the greatest players in basketball history. Before being surpassed by LeBron James in 2023, he held the NBA's all-time scoring record for nearly four decades. Kareem won six NBA championships, six NBA Most Valuable Player (MVP) awards, and became famous for his nearly unstoppable 'skyhook' shot, widely regarded as one of the most effective moves in basketball history.",
+  "keywords": [
+    "Kareem Abdul-Jabbar",
+    "Skyhook",
+    "NBA",
+    "Scoring Record",
+    "MVP",
+    "Legend"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]

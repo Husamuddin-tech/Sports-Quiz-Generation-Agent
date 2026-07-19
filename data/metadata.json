@@ -1,0 +1,16 @@
+{
+  "dataset_name": "Sports Knowledge Base",
+  "version": "1.0",
+  "schema_version": "1.0",
+  "total_records": 68,
+  "sports": [
+    "Cricket",
+    "Football",
+    "Basketball",
+    "Tennis",
+    "Badminton",
+    "Baseball",
+    "Olympics"
+  ],
+  "generated_on": "2026-07-19"
+}

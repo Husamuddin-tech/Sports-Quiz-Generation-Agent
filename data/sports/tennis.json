@@ -1,0 +1,312 @@
+[
+  {
+    "id": "tennis_001",
+    "sport": "Tennis",
+    "topic": "Grand Slams",
+    "title": "Grand Slam Tournaments",
+    "content": "The four Grand Slam tournaments are the Australian Open, the French Open (Roland Garros), Wimbledon, and the US Open. These tournaments are considered the most prestigious events in professional tennis and are played annually. Each Grand Slam is contested over two weeks and awards the highest ranking points and prize money. Winning all four Grand Slam singles titles in a calendar year is known as a Calendar Grand Slam, one of the rarest achievements in tennis.",
+    "keywords": [
+      "Grand Slam",
+      "Australian Open",
+      "French Open",
+      "Wimbledon",
+      "US Open",
+      "Calendar Grand Slam"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "tennis_002",
+    "sport": "Tennis",
+    "topic": "History",
+    "title": "Wimbledon Championships",
+    "content": "Wimbledon is the oldest tennis tournament in the world, first held in 1877 in London, England. Organized by the All England Lawn Tennis and Croquet Club, it is the only Grand Slam tournament played on grass courts. Wimbledon is renowned for traditions such as players wearing predominantly white clothing, the Royal Box, and serving strawberries with cream to spectators.",
+    "keywords": [
+      "Wimbledon",
+      "Grass Court",
+      "London",
+      "1877",
+      "Grand Slam",
+      "All England Club"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "tennis_003",
+    "sport": "Tennis",
+    "topic": "Players",
+    "title": "Novak Djokovic",
+    "content": "Novak Djokovic holds the record for the most men's Grand Slam singles titles with 24 championships. He has also spent more weeks ranked World No. 1 than any other player in ATP history. Known for his exceptional defensive skills, flexibility, and mental toughness, Djokovic has won each of the four Grand Slam tournaments multiple times, making him one of the greatest players in tennis history.",
+    "keywords": [
+      "Novak Djokovic",
+      "ATP",
+      "World No. 1",
+      "Grand Slam",
+      "Serbia",
+      "24 Titles"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "tennis_004",
+    "sport": "Tennis",
+    "topic": "Players",
+    "title": "Rafael Nadal",
+    "content": "Rafael Nadal is widely known as the 'King of Clay' because of his extraordinary success on clay courts. He won a record 14 French Open men's singles titles, the most by any player at a single Grand Slam tournament. Nadal's powerful topspin forehand, relentless determination, and sportsmanship made him one of the most respected athletes in tennis history.",
+    "keywords": [
+      "Rafael Nadal",
+      "French Open",
+      "Roland Garros",
+      "King of Clay",
+      "Spain",
+      "14 Titles"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "tennis_005",
+    "sport": "Tennis",
+    "topic": "Players",
+    "title": "Roger Federer",
+    "content": "Roger Federer is regarded as one of the greatest tennis players of all time. During his career, he won 20 Grand Slam singles titles and was known for his elegant playing style, precise shot-making, and exceptional sportsmanship. Federer held the ATP World No. 1 ranking for a record 237 consecutive weeks, a milestone that remains unmatched in men's tennis.",
+    "keywords": [
+      "Roger Federer",
+      "Switzerland",
+      "ATP",
+      "Grand Slam",
+      "World No. 1",
+      "20 Titles"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+  "id": "tennis_006",
+  "sport": "Tennis",
+  "topic": "Players",
+  "title": "Serena Williams",
+  "content": "Serena Williams is one of the greatest women's tennis players in history. She won 23 Grand Slam singles titles during the Open Era, the most by any player in that period. Serena also completed the 'Serena Slam' by simultaneously holding all four Grand Slam singles titles across 2002–03 and again in 2014–15. Her powerful serve, athleticism, and competitive spirit transformed women's tennis and inspired athletes around the world.",
+  "keywords": [
+    "Serena Williams",
+    "Grand Slam",
+    "23 Titles",
+    "Open Era",
+    "Serena Slam",
+    "WTA"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "tennis_007",
+  "sport": "Tennis",
+  "topic": "Organizations",
+  "title": "ATP and WTA Tours",
+  "content": "The Association of Tennis Professionals (ATP) governs the men's professional tennis tour, while the Women's Tennis Association (WTA) governs the women's professional tour. Both organizations oversee player rankings, tournament schedules, and season-ending championships. Their ranking systems determine player seedings and qualifications for major tournaments, including the four Grand Slam events.",
+  "keywords": [
+    "ATP",
+    "WTA",
+    "Rankings",
+    "Professional Tennis",
+    "Organizations",
+    "Tours"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "tennis_008",
+  "sport": "Tennis",
+  "topic": "Team Competitions",
+  "title": "Davis Cup",
+  "content": "The Davis Cup is the premier international men's team competition in tennis. Established in 1900, it is organized by the International Tennis Federation (ITF) and features national teams competing in knockout ties. Often referred to as the 'World Cup of Tennis,' the Davis Cup has a rich history and showcases national pride alongside individual excellence.",
+  "keywords": [
+    "Davis Cup",
+    "ITF",
+    "Team Competition",
+    "International Tennis",
+    "National Teams",
+    "World Cup of Tennis"
+  ],
+  "difficulty": [
+    "Medium"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "tennis_009",
+  "sport": "Tennis",
+  "topic": "Rules",
+  "title": "Tennis Scoring System",
+  "content": "A standard tennis game is scored using the sequence 15, 30, 40, and game. If both players reach 40 points, the score is called 'deuce.' A player must then win two consecutive points to win the game, first gaining 'advantage' and then the game itself. Matches are played as the best of three or five sets depending on the tournament and competition format.",
+  "keywords": [
+    "Tennis Rules",
+    "Scoring",
+    "15 30 40",
+    "Deuce",
+    "Advantage",
+    "Sets"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "tennis_010",
+  "sport": "Tennis",
+  "topic": "Olympics",
+  "title": "Olympic Tennis",
+  "content": "Tennis was included in the first modern Olympic Games in 1896 but was removed after the 1924 Olympics because of disagreements over amateur regulations. It returned as a full medal sport at the 1988 Seoul Olympics and has remained part of the Olympic program ever since. Olympic tennis features singles and doubles events for both men and women, as well as mixed doubles.",
+  "keywords": [
+    "Olympics",
+    "Seoul 1988",
+    "Olympic Tennis",
+    "Mixed Doubles",
+    "ITF",
+    "Medal Sport"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]

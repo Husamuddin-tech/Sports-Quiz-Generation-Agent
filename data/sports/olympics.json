@@ -1,0 +1,251 @@
+[
+  {
+    "id": "olympics_001",
+    "sport": "Olympics",
+    "topic": "History",
+    "title": "Modern Olympic Games",
+    "content": "The modern Olympic Games were founded by Baron Pierre de Coubertin and first held in Athens, Greece, in 1896. Inspired by the ancient Olympic Games of Greece, the modern Olympics promote excellence, friendship, and respect through international sporting competition. Athletes from around the world compete every four years in the Summer and Winter Olympic Games under the guidance of the International Olympic Committee (IOC).",
+    "keywords": [
+      "Olympics",
+      "Athens",
+      "1896",
+      "Pierre de Coubertin",
+      "IOC",
+      "History"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+    "id": "olympics_002",
+    "sport": "Olympics",
+    "topic": "Symbols",
+    "title": "Olympic Motto",
+    "content": "The Olympic motto was originally 'Citius, Altius, Fortius,' a Latin phrase meaning 'Faster, Higher, Stronger.' In 2021, the International Olympic Committee updated the motto to 'Faster, Higher, Stronger – Together' to emphasize solidarity and unity among athletes and nations. The motto reflects the Olympic spirit of striving for excellence while promoting friendship and mutual respect.",
+    "keywords": [
+      "Olympic Motto",
+      "Faster Higher Stronger",
+      "Together",
+      "IOC",
+      "Symbols",
+      "Values"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+    "id": "olympics_003",
+    "sport": "Olympics",
+    "topic": "Symbols",
+    "title": "Olympic Rings",
+    "content": "The Olympic symbol consists of five interlocking rings colored blue, yellow, black, green, and red on a white background. Designed by Baron Pierre de Coubertin in 1913, the rings represent the unity of athletes from around the world. Together, the colors were chosen because at least one of them appeared in every national flag at the time the symbol was created.",
+    "keywords": [
+      "Olympic Rings",
+      "Five Rings",
+      "Pierre de Coubertin",
+      "Olympic Symbol",
+      "Colors",
+      "Unity"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+    "id": "olympics_004",
+    "sport": "Olympics",
+    "topic": "Organizations",
+    "title": "International Olympic Committee",
+    "content": "The International Olympic Committee (IOC) is the governing body of the Olympic Movement. Founded in 1894 and headquartered in Lausanne, Switzerland, the IOC oversees the organization of the Summer and Winter Olympic Games, selects host cities, and promotes the Olympic values worldwide. It works closely with international sports federations and National Olympic Committees to develop sport globally.",
+    "keywords": [
+      "IOC",
+      "Olympic Committee",
+      "Lausanne",
+      "Switzerland",
+      "Olympic Governance",
+      "Organizations"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+      "license": "Internal",
+      "verified": true
+    }
+  },
+  {
+  "id": "olympics_005",
+  "sport": "Olympics",
+  "topic": "Traditions",
+  "title": "Olympic Torch Relay",
+  "content": "The Olympic Torch Relay is one of the most recognized traditions of the modern Olympic Games. The Olympic flame is lit in Olympia, Greece, using the sun's rays and then carried by thousands of torchbearers to the host city. The relay symbolizes peace, friendship, and the continuity between the ancient and modern Olympic Games, culminating in the lighting of the Olympic cauldron during the Opening Ceremony.",
+  "keywords": [
+    "Olympic Torch",
+    "Torch Relay",
+    "Olympia",
+    "Opening Ceremony",
+    "Tradition",
+    "Olympic Flame"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "olympics_006",
+  "sport": "Olympics",
+  "topic": "Athletes",
+  "title": "Michael Phelps",
+  "content": "Michael Phelps of the United States is the most decorated Olympian in history. Across five Olympic Games from 2000 to 2016, he won a total of 28 Olympic medals, including 23 gold medals. His achievements in swimming have set numerous world records and established him as one of the greatest athletes of all time.",
+  "keywords": [
+    "Michael Phelps",
+    "Swimming",
+    "United States",
+    "23 Gold Medals",
+    "Olympian",
+    "Olympics"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "olympics_007",
+  "sport": "Olympics",
+  "topic": "Athletes",
+  "title": "Usain Bolt",
+  "content": "Usain Bolt of Jamaica is widely regarded as the fastest man in history. He won eight Olympic gold medals and holds the world records in the 100 meters (9.58 seconds) and 200 meters (19.19 seconds), both set at the 2009 World Championships. Bolt's dominance in sprinting made him one of the most iconic athletes in Olympic history.",
+  "keywords": [
+    "Usain Bolt",
+    "Jamaica",
+    "100m",
+    "200m",
+    "Olympic Gold",
+    "Sprint"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "olympics_008",
+  "sport": "Olympics",
+  "topic": "Countries",
+  "title": "India at the Olympics",
+  "content": "India first participated in the Olympic Games in 1900 and has since achieved success across multiple sports, including hockey, shooting, wrestling, badminton, boxing, athletics, and javelin throw. The Indian men's hockey team remains one of the most successful teams in Olympic history with eight gold medals. In recent years, athletes such as Abhinav Bindra, Neeraj Chopra, P. V. Sindhu, and Mirabai Chanu have contributed to India's growing Olympic success.",
+  "keywords": [
+    "India",
+    "Olympics",
+    "Neeraj Chopra",
+    "Abhinav Bindra",
+    "P. V. Sindhu",
+    "Hockey"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]

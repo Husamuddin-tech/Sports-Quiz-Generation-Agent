@@ -1,0 +1,250 @@
+[
+  {
+    "id": "badminton_001",
+    "sport": "Badminton",
+    "topic": "History",
+    "title": "Origin of Badminton",
+    "content": "Modern badminton originated in British India during the mid-19th century from a game called 'Poona', played by British army officers. The sport was later introduced to England, where it gained popularity at Badminton House in Gloucestershire, from which it derives its name. The first official rules were established in the late 1800s, laying the foundation for modern international badminton competitions.",
+    "keywords": [
+      "Badminton History",
+      "Poona",
+      "British India",
+      "Badminton House",
+      "England",
+      "Origin"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "badminton_002",
+    "sport": "Badminton",
+    "topic": "Championships",
+    "title": "All England Open",
+    "content": "The All England Open Badminton Championships, first held in 1899, is the oldest and one of the most prestigious badminton tournaments in the world. Organized annually in England, the tournament has witnessed legendary champions across generations. Winning the All England Open is considered one of the highest achievements in professional badminton.",
+    "keywords": [
+      "All England Open",
+      "1899",
+      "Championship",
+      "England",
+      "Prestigious Tournament",
+      "Badminton"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "difficulty": [
+      "Easy"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "badminton_003",
+    "sport": "Badminton",
+    "topic": "Team Competitions",
+    "title": "Thomas Cup",
+    "content": "The Thomas Cup is the premier international men's team championship in badminton. Established in 1948 and organized by the Badminton World Federation (BWF), the tournament is held every two years. India achieved a historic milestone by winning its first Thomas Cup title in 2022 after defeating Indonesia 3–0 in the final.",
+    "keywords": [
+      "Thomas Cup",
+      "India",
+      "Indonesia",
+      "2022",
+      "BWF",
+      "Team Championship"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false",
+      "fill_blank"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+    "id": "badminton_004",
+    "sport": "Badminton",
+    "topic": "Team Competitions",
+    "title": "Uber Cup",
+    "content": "The Uber Cup is the world's premier international women's team badminton championship. First held in 1957, it is organized by the Badminton World Federation (BWF) and takes place every two years. The competition is considered the women's equivalent of the Thomas Cup and features the strongest national badminton teams from around the globe.",
+    "keywords": [
+      "Uber Cup",
+      "Women's Championship",
+      "BWF",
+      "Team Competition",
+      "1957",
+      "International Badminton"
+    ],
+    "question_types": [
+      "mcq",
+      "true_false"
+    ],
+    "difficulty": [
+      "Medium"
+    ],
+    "version": "1.0",
+    "last_updated": "2026-07-19",
+    "source": {
+      "type": "curated",
+      "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+    }
+  },
+  {
+  "id": "badminton_005",
+  "sport": "Badminton",
+  "topic": "Olympics",
+  "title": "Olympic Badminton",
+  "content": "Badminton became an official Olympic medal sport at the 1992 Summer Olympics in Barcelona, Spain. The competition includes men's singles, women's singles, men's doubles, women's doubles, and mixed doubles events. Olympic badminton has significantly increased the sport's global popularity, with Asian nations such as China, Indonesia, South Korea, and India consistently producing world-class players and medalists.",
+  "keywords": [
+    "Olympics",
+    "Barcelona 1992",
+    "Olympic Badminton",
+    "Mixed Doubles",
+    "China",
+    "India"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "badminton_006",
+  "sport": "Badminton",
+  "topic": "Players",
+  "title": "Lin Dan",
+  "content": "Lin Dan of China is regarded as one of the greatest badminton players in history. He won two consecutive Olympic gold medals in men's singles at the 2008 Beijing Olympics and the 2012 London Olympics. Lin Dan also captured five BWF World Championship titles and completed the prestigious Super Grand Slam by winning every major international badminton title during his career.",
+  "keywords": [
+    "Lin Dan",
+    "China",
+    "Olympic Champion",
+    "World Champion",
+    "Super Grand Slam",
+    "BWF"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "badminton_007",
+  "sport": "Badminton",
+  "topic": "Players",
+  "title": "P. V. Sindhu",
+  "content": "P. V. Sindhu is one of India's most successful badminton players. She became the first Indian woman to win an Olympic silver medal in badminton at the 2016 Rio Olympics and later secured a bronze medal at the 2020 Tokyo Olympics. Sindhu also won the BWF World Championships in 2019, becoming the first Indian to claim the women's singles world title.",
+  "keywords": [
+    "P. V. Sindhu",
+    "India",
+    "Olympics",
+    "World Champion",
+    "Rio 2016",
+    "Tokyo 2020"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false",
+    "fill_blank"
+  ],
+  "difficulty": [
+    "Easy",
+    "Medium"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+},
+{
+  "id": "badminton_008",
+  "sport": "Badminton",
+  "topic": "Organizations",
+  "title": "Badminton World Federation",
+  "content": "The Badminton World Federation (BWF) is the international governing body for badminton. Founded in 1934 as the International Badminton Federation (IBF), it was renamed the Badminton World Federation in 2006. Headquartered in Kuala Lumpur, Malaysia, the BWF oversees the Laws of Badminton, world rankings, international tournaments, and major championships including the Thomas Cup, Uber Cup, Sudirman Cup, and BWF World Championships.",
+  "keywords": [
+    "BWF",
+    "Badminton World Federation",
+    "IBF",
+    "Malaysia",
+    "World Rankings",
+    "International Governance"
+  ],
+  "question_types": [
+    "mcq",
+    "true_false"
+  ],
+  "difficulty": [
+    "Easy"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-07-19",
+  "source": {
+    "type": "curated",
+    "name": "Sports Knowledge Base v1",
+    "license": "Internal",
+    "verified": true
+  }
+}
+]
