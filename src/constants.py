@@ -29,7 +29,7 @@ SUPPORTED_SPORTS: Final[list[str]] = [
     "Basketball",
     "Tennis",
     "Badminton",
-    "Formula 1",
+    "Baseball",
     "Olympics",
 ]
 
@@ -113,3 +113,35 @@ EXPLANATION_KEY: Final[str] = "explanation"
 SPORT_KEY: Final[str] = "sport"
 
 DIFFICULTY_KEY: Final[str] = "difficulty"
+
+# ==========================================================
+# Dataset Validation
+# ==========================================================
+
+REQUIRED_RECORD_FIELDS: Final[set[str]] = {
+    "id",
+    "sport",
+    "topic",
+    "title",
+    "content",
+    "keywords",
+    "question_types",
+    "difficulty",
+    "version",
+    "last_updated",
+    "source",
+}
+
+SUPPORTED_QUESTION_TYPES: Final[list[str]] = [
+    "mcq",
+    "true_false",
+    "fill_blank",
+]
+
+MIN_CONTENT_LENGTH: Final[int] = 80
+
+MAX_CONTENT_LENGTH: Final[int] = 2000
+
+MIN_KEYWORDS: Final[int] = 3
+
+MAX_KEYWORDS: Final[int] = 10

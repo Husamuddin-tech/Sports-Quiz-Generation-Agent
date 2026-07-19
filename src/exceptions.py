@@ -66,6 +66,10 @@ class ValidationError(SportsQuizError):
     """Raised when generated quiz data fails validation."""
 
 
+class DatasetValidationError(SportsQuizError):
+    """Raised when the curated knowledge base is invalid."""
+
+
 class QuizGenerationError(SportsQuizError):
     """Raised when quiz generation fails."""
 
@@ -77,3 +81,4 @@ class QuizGenerationError(SportsQuizError):
 
 class UserInputError(SportsQuizError):
     """Raised when user input is invalid."""
+

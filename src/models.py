@@ -6,7 +6,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from datetime import datetime
+from datetime import datetime, date
 
 
 # ==========================================================
@@ -110,3 +110,47 @@ class QuizResponse(BaseModel):
         validate_assignment=True,
         extra="forbid",
     )
+
+
+class KnowledgeSource(BaseModel):
+    """Metadata describing the origin of a knowledge record."""
+
+    type: str
+    name: str
+    license: str
+    verified: bool
+
+
+
+class SportsKnowledge(BaseModel):
+    """Represents one curated knowledge record."""
+
+    id: str
+
+    sport: str
+
+    topic: str
+
+    title: str
+
+    content: str
+
+    keywords: list[str]
+
+    question_types: list[str]
+
+    difficulty: list[str]
+
+    version: str
+
+    last_updated: date
+
+    source: KnowledgeSource
+
+    model_config = ConfigDict(
+        extra="forbid",
+        validate_assignment=True,
+    )
+
+
+
