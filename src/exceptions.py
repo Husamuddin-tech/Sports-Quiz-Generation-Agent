@@ -73,6 +73,17 @@ class DatasetValidationError(SportsQuizError):
 class QuizGenerationError(SportsQuizError):
     """Raised when quiz generation fails."""
 
+class LLMError(Exception):
+    """Base exception for LLM-related errors."""
+
+
+class LLMGenerationError(LLMError):
+    """Raised when the LLM fails to generate a response."""
+
+
+class LLMResponseError(LLMError):
+    """Raised when the LLM returns an invalid or empty response."""
+
 
 # ==========================================================
 # UI

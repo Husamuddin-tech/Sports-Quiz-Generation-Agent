@@ -276,186 +276,186 @@ class ChromaDBService:
 
         return cleaned
     
-    # ==========================================================
+# ==========================================================
 # Search
 # ==========================================================
 
-@log_execution_time("Semantic Search")
-def search(
-    self,
-    query_embedding: list[float],
-    top_k: int = DEFAULT_SEARCH_RESULTS,
-    filters: Metadata | None = None,
-) -> list[RetrievedDocument]:
-    """
-    Perform semantic similarity search.
+    @log_execution_time("Semantic Search")
+    def search(
+        self,
+        query_embedding: list[float],
+        top_k: int = DEFAULT_SEARCH_RESULTS,
+        filters: Metadata | None = None,
+    ) -> list[RetrievedDocument]:
+        """
+        Perform semantic similarity search.
 
-    Parameters
-    ----------
-    query_embedding:
-        Embedding vector of the query.
+        Parameters
+        ----------
+        query_embedding:
+            Embedding vector of the query.
 
-    top_k:
-        Number of documents to retrieve.
+        top_k:
+            Number of documents to retrieve.
 
-    filters:
-        Optional metadata filters.
+        filters:
+            Optional metadata filters.
 
-    Returns
-    -------
-    list[RetrievedDocument]
-    """
+        Returns
+        -------
+        list[RetrievedDocument]
+        """
 
-    if not query_embedding:
+        if not query_embedding:
 
-        raise DatabaseError(
-            "Query embedding cannot be empty."
-        )
-
-    collection = self._get_collection()
-
-    logger.info(
-        f"Searching '{CHROMA_COLLECTION_NAME}' "
-        f"(top_k={top_k})"
-    )
-
-    try:
-
-        results = collection.query(
-            query_embeddings=[query_embedding],
-            n_results=top_k,
-            where=filters,
-            include=[
-                "documents",
-                "metadatas",
-                "distances",
-            ],
-        )
-
-    except Exception as exc:
-
-        raise DatabaseError(
-            f"Search failed: {exc}"
-        ) from exc
-
-    retrieved = self._convert_results(results)
-
-    logger.success(
-        f"Retrieved {len(retrieved)} document(s)."
-    )
-
-    return retrieved
-
-def _convert_results(
-    self,
-    results: dict[str, Any],
-) -> list[RetrievedDocument]:
-    """
-    Convert raw ChromaDB output into RetrievedDocument objects.
-    """
-
-    ids = results.get("ids", [[]])[0]
-    documents = results.get("documents", [[]])[0]
-    metadatas = results.get("metadatas", [[]])[0]
-    distances = results.get("distances", [[]])[0]
-
-    retrieved: list[RetrievedDocument] = []
-
-    for doc_id, content, metadata, distance in zip(
-        ids,
-        documents,
-        metadatas,
-        distances,
-    ):
-
-        similarity = max(
-            0.0,
-            1.0 - float(distance),
-        )
-
-        retrieved.append(
-            RetrievedDocument(
-                id=doc_id,
-                content=content,
-                metadata=metadata or {},
-                similarity_score=similarity,
+            raise DatabaseError(
+                "Query embedding cannot be empty."
             )
+
+        collection = self._get_collection()
+
+        logger.info(
+            f"Searching '{CHROMA_COLLECTION_NAME}' "
+            f"(top_k={top_k})"
         )
 
-    return retrieved
+        try:
+
+            results = collection.query(
+                query_embeddings=[query_embedding],
+                n_results=top_k,
+                where=filters,
+                include=[
+                    "documents",
+                    "metadatas",
+                    "distances",
+                ],
+            )
+
+        except Exception as exc:
+
+            raise DatabaseError(
+                f"Search failed: {exc}"
+            ) from exc
+
+        retrieved = self._convert_results(results)
+
+        logger.success(
+            f"Retrieved {len(retrieved)} document(s)."
+        )
+
+        return retrieved
+
+    def _convert_results(
+        self,
+        results: dict[str, Any],
+    ) -> list[RetrievedDocument]:
+        """
+        Convert raw ChromaDB output into RetrievedDocument objects.
+        """
+
+        ids = results.get("ids", [[]])[0]
+        documents = results.get("documents", [[]])[0]
+        metadatas = results.get("metadatas", [[]])[0]
+        distances = results.get("distances", [[]])[0]
+
+        retrieved: list[RetrievedDocument] = []
+
+        for doc_id, content, metadata, distance in zip(
+            ids,
+            documents,
+            metadatas,
+            distances,
+        ):
+
+            similarity = max(
+                0.0,
+                1.0 - float(distance),
+            )
+
+            retrieved.append(
+                RetrievedDocument(
+                    id=doc_id,
+                    content=content,
+                    metadata=metadata or {},
+                    similarity_score=similarity,
+                )
+            )
+
+        return retrieved
 
 # ==========================================================
 # Collection Utilities
 # ==========================================================
 
-def count(self) -> int:
-    """
-    Return the number of stored documents.
-    """
+    def count(self) -> int:
+        """
+        Return the number of stored documents.
+        """
 
-    collection = self._get_collection()
+        collection = self._get_collection()
 
-    try:
+        try:
 
-        return collection.count()
+            return collection.count()
 
-    except Exception as exc:
+        except Exception as exc:
 
-        raise DatabaseError(
-            f"Unable to count documents: {exc}"
-        ) from exc
-
-
-def peek(
-    self,
-    limit: int = DEFAULT_PEEK_RESULTS,
-) -> dict[str, Any]:
-    """
-    Preview stored documents.
-    """
-
-    collection = self._get_collection()
-
-    try:
-
-        return collection.peek(limit=limit)
-
-    except Exception as exc:
-
-        raise DatabaseError(
-            f"Unable to peek collection: {exc}"
-        ) from exc
+            raise DatabaseError(
+                f"Unable to count documents: {exc}"
+            ) from exc
 
 
-@log_execution_time("Reset Collection")
-def reset_collection(self) -> None:
-    """
-    Delete and recreate the collection.
+    def peek(
+        self,
+        limit: int = DEFAULT_PEEK_RESULTS,
+    ) -> dict[str, Any]:
+        """
+        Preview stored documents.
+        """
 
-    Intended for development/testing.
-    """
+        collection = self._get_collection()
 
-    client = self._initialize_client()
+        try:
 
-    logger.warning(
-        f"Resetting '{CHROMA_COLLECTION_NAME}'."
-    )
+            return collection.peek(limit=limit)
 
-    try:
+        except Exception as exc:
 
-        client.delete_collection(
-            CHROMA_COLLECTION_NAME
+            raise DatabaseError(
+                f"Unable to peek collection: {exc}"
+            ) from exc
+
+
+    @log_execution_time("Reset Collection")
+    def reset_collection(self) -> None:
+        """
+        Delete and recreate the collection.
+
+        Intended for development/testing.
+        """
+
+        client = self._initialize_client()
+
+        logger.warning(
+            f"Resetting '{CHROMA_COLLECTION_NAME}'."
         )
 
-    except Exception:
-        pass
+        try:
 
-    self._collection = None
+            client.delete_collection(
+                CHROMA_COLLECTION_NAME
+            )
 
-    self._get_collection()
+        except Exception:
+            pass
 
-    logger.success(
-        "Collection reset completed."
-    )
+        self._collection = None
+
+        self._get_collection()
+
+        logger.success(
+            "Collection reset completed."
+        )
 
     

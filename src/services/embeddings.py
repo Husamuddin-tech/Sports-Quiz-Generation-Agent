@@ -33,8 +33,9 @@ class EmbeddingService:
     first request and reused for the lifetime of the application.
     """
 
+    _model: SentenceTransformer | None = None
     def __init__(self) -> None:
-        self._model: SentenceTransformer | None = None
+        pass
 
     # ==========================================================
     # Internal
@@ -45,15 +46,14 @@ class EmbeddingService:
         Lazily load the embedding model.
         """
 
-        if self._model is None:
+        if EmbeddingService._model is None:
 
             logger.info(
                 f"Loading embedding model: {EMBEDDING_MODEL_NAME}"
             )
 
             try:
-
-                self._model = SentenceTransformer(
+                EmbeddingService._model = SentenceTransformer(
                     EMBEDDING_MODEL_NAME
                 )
 
@@ -66,7 +66,7 @@ class EmbeddingService:
                 f"Embedding model loaded: {EMBEDDING_MODEL_NAME}"
             )
 
-        return self._model
+        return EmbeddingService._model
 
     # ==========================================================
     # Public API

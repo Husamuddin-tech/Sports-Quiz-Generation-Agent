@@ -153,3 +153,18 @@ MAX_CONTENT_LENGTH: Final[int] = 2000
 MIN_KEYWORDS: Final[int] = 3
 
 MAX_KEYWORDS: Final[int] = 10
+
+
+# ==========================================================
+# Gemini
+# ==========================================================
+
+DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
+
+DEFAULT_TEMPERATURE = 0.4
+
+DEFAULT_MAX_OUTPUT_TOKENS = 4096
+
+DEFAULT_TOP_P = 0.95
+
+DEFAULT_TOP_K = 40

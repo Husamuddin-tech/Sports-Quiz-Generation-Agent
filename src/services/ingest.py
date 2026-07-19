@@ -13,6 +13,8 @@ from src.models import SportsKnowledge
 from src.services.database import ChromaDBService
 from src.services.embeddings import EmbeddingService
 from src.services.validator import DatasetValidator
+from src.config import DATA_DIR
+
 
 
 # ==========================================================
@@ -118,8 +120,8 @@ class KnowledgeIngestionService:
         Load and validate dataset.
         """
 
-        return self.validator.load_and_validate()
-
+        return self.validator.load_and_validate(DATA_DIR)
+    
     def _build_document(
         self,
         record: SportsKnowledge,
